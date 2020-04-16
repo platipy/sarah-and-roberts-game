@@ -51,7 +51,9 @@ def main():
     color_scheme = "random" if sys.argv[-1] == "random" else "gradient"
     while True:
         for event in pygame.event.get():
-            if event.type == pygame.KEYUP and event.key == ord('q'):
+            if event.type == pygame.QUIT or (
+                event.type == pygame.KEYUP and event.key == ord("q")
+            ):
                 return
             if event.type == pygame.KEYUP and event.key == pygame.K_SPACE:
                 size_idx = (size_idx + 1) % len(sizes)
