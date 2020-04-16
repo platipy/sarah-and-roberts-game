@@ -1,5 +1,7 @@
 # Sarah and Robert's Awesome Game
 
+## Where everyone's a winner
+
 ![screenshot of game](https://github.com/platipy/sarah-and-roberts-game/blob/master/game.png)
 
 ## Setup
@@ -30,3 +32,7 @@ otherwise, the game will draw with a randomly generated gradient sequence.
 - Press `c` to clear the canvas.
 
 - Press `q` to quit.
+
+## Troubleshooting
+
+- If the screen resolution is too large, decrease the `SIZE` in `main.py`.
